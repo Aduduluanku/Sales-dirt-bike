@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAOCAO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>CAOCAO</a>
+        
+        <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here">
+            <label for="serch-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/images/WR155.jpg" alt="">
+                <div class="content">
+                    <h3> Yamaha WR155R</h3>
+                    <span class="price">$4000/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <!-- <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/images/XR150.jpg" alt="">
+                <div class="content">
+                    <h3> Honda XR150</h3>
+                    <span class="price">$3099/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/images/KLX150.jpg" alt="">
+                <div class="content">
+                    <h3> Kawasaki KLX150</h3>
+                    <span class="price">$2680/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div> -->
+
+            <div class="total">Total: 4000$/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+             <h3>Login now</h3>
+             <input type="email" placeholder="Enter your mail" class="box">
+             <input type="password" placeholder="Enter your password" class="box">
+             <p>Forget your password <a href="#">click here</a></p>
+             <p>don't have an account <a href="#">create now</a></p>
+             <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+
+
+
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fast and <span>strong</span> for your drive</h3>
+            <p>The term "dirt bike" refers to a type of lightweight motorcycle designed specifically for 
+                off-road riding. Dirt bikes are characterized by their rugged tires, 
+                long suspension travel, and high ground clearance, allowing them to navigate 
+                rough terrains, such as trails, dirt tracks, and fields. They typically feature 
+                a more powerful engine compared to standard motorcycles, enabling better 
+                acceleration and maneuverability in challenging conditions.</p>
+            
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="/images/features1.jpg">
+                <h3>Testing</h3>
+                <p>You can try the vehical in our yard to make sure that you want that dirt bike</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="/images/features2.jpg">
+                <h3>Guarantee</h3>
+                <p>We'll guarantee in 2 months after you pay for your car and guarantee in 1 year with 50% cost if dirt bike have broken</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+ 
+            <div class="box">
+                <img src="/images/features3.jpg">
+                <h3>Payment</h3>
+                <p>We accept all the payment method and supporting installment upto 30%</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./images/KLX150.jpg" alt="">
+                    <h3>kawasaki_KLX-150</h3>
+                    <div class="price"> $2680 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add your cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/XR150.jpg" alt="">
+                    <h3>honda_XR-150</h3>
+                    <div class="price"> $3099 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add your cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/WR155.jpg" alt="">
+                    <h3>yamaha_WR-150</h3>
+                    <div class="price"> $4000 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add your cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/RX125.jpg" alt="">
+                    <h3>aprilia_RX-125</h3>
+                    <div class="price"> $4100 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add your cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/XTZ125.jpg" alt="">
+                    <h3>yamaha_XTZ-125</h3>
+                    <div class="price"> $1268 </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add your cart</a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/gang.jpg" alt="" >
+                <h3>taichi rst-410</h3>
+                <p>upto 40% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/giap.jpg" alt="" >
+                <h3>Alpinestars A-10</h3>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/ung.jpg" alt="" >
+                <h3> Scoyco MBM003</h3>
+                <p>upto 20% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/ff.jpg" alt="" >
+                <h3> LS2 MX436 Pioneer Evo</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1->
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./images/bart.jpg" alt="">
+                    <p>"This off-road vehicle offers exceptional performance 
+                        on rugged terrains, easily tackling mud, rocks, and steep inclines with ease."</p>
+                    <h3>Bart Simpson</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/gumball.jpg" alt="">
+                    <p>"The handling and stability of this off-road truck are impressive, 
+                        making it a great choice for both casual adventurers and serious off-roading enthusiasts."</p>
+                    <h3>Gumball Waterson</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/mrpickles.jpg" alt="">
+                    <p>"With its high ground clearance and durable suspension, 
+                        this off-road SUV provides a smooth and comfortable ride, even on the most challenging trails."</p>
+                    <h3>Mr.Pickles</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/shin.jpg" alt="">
+                    <p>"While the fuel efficiency might not be the best, the off-road capabilities of this 
+                        vehicle more than make up for it, especially for those who love exploring remote areas."</p>
+                    <h3>Shin Nosuke</h3>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/morty.jpg" alt="">
+                    <p>"The design of this off-road car is both rugged and stylish, combining practicality with aesthetics, making
+                        it perfect for those who want performance without sacrificing looks."</p>
+                    <h3>Morty Smith</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/blog1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st may, 2022</a>
+                    </div>
+                    <h3>Knowledge before hitting the trails</h3>
+                    <p>When it comes to off-roading, there are a few essential things to know before hitting the trails...</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/blog2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>5th may, 2023</a>
+                    </div>
+                    <h3>Advice for driving better</h3>
+                    <p>To become a more skilled off-road driver, practice is key. Start by gaining experience on easier trails....</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/blog3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>7th may, 2023</a>
+                    </div>
+                    <h3>Top items necessary for off-road</h3>
+                    <p>In terms of necessary gear, there are several off-road accessories you should always have on hand....</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>CAOCAO <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit ametto omninisi dolore accusantium quidem saepe et.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact</h3>
+                <a href="#" class="links"><i class="fas fa-phone">+84 123-456-789</i></a>
+                <a href="#" class="links"><i class="fas fa-phone">+84 987-654-324</i></a>
+                <a href="#" class="links"><i class="fas fa-envelope">caocao@gmail.com</i></a>
+                <a href="#" class="links"><i class="fas fa-map-maker-alt">Ho Chi Minh City</i></a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest update</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="./images/payments.jpg" class="payment-img" alt="">
+            </div>
+        </div>
+
+        <div class="credit">created by <span>Nguyen Thanh Luan</span> | all right reserved</div>
+    </section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
